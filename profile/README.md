@@ -21,7 +21,7 @@ curl https://api.ampost.io/api/posts \
 | [API docs](https://ampost.io/docs?ref=github) | REST reference, errors, idempotency, webhooks, media upload |
 | [OpenAPI document](https://api.ampost.io/openapi.json) | Every endpoint, for code generators and agents |
 | [MCP server](https://ampost.io/docs/mcp?ref=github) | `https://api.ampost.io/mcp` for Claude Code, Cursor, VS Code, Codex and other MCP clients |
-| [How-to guides](https://ampost.io/how-to?ref=github) | n8n, Make, Python, GitHub Actions, Google Sheets, RSS, with templates |
+| [How-to guides](https://ampost.io/how-to?ref=github) | n8n, Make, Python, Ruby, GitHub Actions, Google Sheets, RSS, with templates |
 | [Pricing](https://ampost.io/pricing?ref=github) | Free plan to start, no card |
 
 ## Repositories
@@ -29,7 +29,8 @@ curl https://api.ampost.io/api/posts \
 | Repo | What it is |
 | --- | --- |
 | [ampost-node](https://github.com/ampost-io/ampost-node) | TypeScript / JavaScript SDK: `npm install ampost` |
-| [ampost-python](https://github.com/ampost-io/ampost-python) | Python SDK, sync and async: `pip install ampost` (soon on PyPI) |
+| [ampost-python](https://github.com/ampost-io/ampost-python) | Python SDK, sync and async: `pip install ampost` |
+| [ampost-ruby](https://github.com/ampost-io/ampost-ruby) | Ruby SDK, no runtime dependencies: `gem install ampost` |
 | [ampost-cli](https://github.com/ampost-io/ampost-cli) | Post and schedule from the terminal and CI: `npm install -g ampost-cli` |
 | [n8n-nodes-ampost](https://github.com/ampost-io/n8n-nodes-ampost) | n8n community node: install `n8n-nodes-ampost` in Settings → Community Nodes |
 | [make-ampost](https://github.com/ampost-io/make-ampost) | Make app and scenario templates (RSS, Google Sheets, AI post with approval, YouTube cross-post); scenario blueprints work today with Make's HTTP module |
